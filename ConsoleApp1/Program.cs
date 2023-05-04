@@ -2,7 +2,7 @@
 
 string sentence = "Hello, World! The world we live in is Earth. Say hello whenever on world.";
 sentence = sentence.Replace(",", "").Replace("!", "").ToLower();
-var words = sentence.Split(' ');
+var words = sentence.Split(" ");
 
 // used new C# syntax for instantiating the dictionary object
 Dictionary<string, int> dictionary = new();
